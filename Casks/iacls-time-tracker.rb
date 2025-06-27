@@ -1,13 +1,15 @@
 cask "iacls-time-tracker" do
-  version "1.1.1"
-  sha256 "0c1da8da26d5075c73164b052f1eabcf7c20977f0f005ad81451908ac5155667"
+  version "1.2.0"
+  sha256 "b23bc182b0fba4b97c6e171f67e89232141c19452165dac58f55c6a32fe7ebbc"
 
-  url "https://github.com/markwbennett/TimeTrackButton/raw/main/TimeTracker_CPP.app.tar.gz"
+  url "https://github.com/markwbennett/TimeTrackButton/raw/main/TimeTracker_CPP_v1.2.0.app.tar.gz"
   name "IACLS Time Tracker"
   desc "Time tracking application for legal and professional work"
   homepage "https://github.com/markwbennett/TimeTrackButton"
 
-  app "TimeTracker_CPP.app", target: "IACLS Time Tracker.app"
+  depends_on arch: :arm64
+
+  app "IACLS Time Tracker.app"
 
   postflight do
     system_command "/usr/bin/xattr",
