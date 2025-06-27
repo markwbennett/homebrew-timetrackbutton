@@ -2,7 +2,7 @@ cask "iacls-time-tracker" do
   version "1.2.0"
   sha256 "17b930431b0d883ad5aca0711ba1d4a5bcf08315372c84bde221968511375498"
 
-  url "https://github.com/markwbennett/TimeTrackButton/raw/main/TimeTracker_CPP_v1.2.0.app.tar.gz"
+  url "https://github.com/markwbennett/TimeTrackButton/raw/main/TimeTracker_CPP_v1.2.0-fixed.app.tar.gz"
   name "IACLS Time Tracker"
   desc "Time tracking application for legal and professional work"
   homepage "https://github.com/markwbennett/TimeTrackButton"
